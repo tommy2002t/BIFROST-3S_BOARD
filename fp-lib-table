@@ -5,4 +5,5 @@
   (lib (name "B4B-XH-A_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/CERBERUS-3S FOOTPRINTS/LIB_B4B-XH-A_LF__SN_/B4B-XH-A_LF__SN_/KiCad/B4B-XH-A_LF__SN_.pretty")(options "")(descr ""))
   (lib (name "B6B-XH-A_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/CERBERUS-3S FOOTPRINTS/LIB_B6B-XH-A_LF__SN_/B6B-XH-A_LF__SN_/KiCad/B6B-XH-A_LF__SN_.pretty")(options "")(descr ""))
   (lib (name "CDSOT23-T15C-Q")(type "KiCad")(uri "${KIPRJMOD}/CERBERUS-3S FOOTPRINTS/LIB_CDSOT23-T15C-Q/CDSOT23-T15C-Q/KiCad/CDSOT23-T15C-Q.pretty")(options "")(descr ""))
+  (lib (name "560020-1020")(type "KiCad")(uri "${KIPRJMOD}/CERBERUS-3S FOOTPRINTS/LIB_560020-1020/560020-1020/KiCad/560020-1020.pretty")(options "")(descr ""))
 )
