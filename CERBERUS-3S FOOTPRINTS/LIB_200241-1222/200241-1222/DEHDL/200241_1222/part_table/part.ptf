@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '200241_1222'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Molex", "200241-1222" (!) = "", "2002411222", "Other", "538-200241-1222", "https://www.mouser.co.uk/ProductDetail/Molex/200241-1222?qs=PzGy0jfpSMvrXQ27oECKZA%3D%3D", "MEGAFIT R/A TOP LATCH ASSY 15G 2CKT BLK ROHS COMPLIANT: YES", "", "11.35 mm"
+END_PART
+
+END.

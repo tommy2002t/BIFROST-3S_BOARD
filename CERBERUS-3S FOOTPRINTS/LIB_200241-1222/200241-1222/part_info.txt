@@ -1,0 +1,9 @@
+Manufacturer=Molex
+PartNumber=200241-1222
+PartCategory=Connector
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2020-06-05 11:45:43
+Downloaded=2026-07-29 15:50:31
+3D=Y

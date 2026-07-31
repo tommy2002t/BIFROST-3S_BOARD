@@ -1,0 +1,123 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "200241-1222"
+   (description "MEGAFIT R/A TOP LATCH ASSY 15G 2CKT BLK ROHS COMPLIANT: YES")
+   (family "CON")
+   (package "2002411222")
+   (attribute "Datasheet Link" "")
+   (attribute "Geometry.Height" "11.35mm")
+   (attribute "Mouser Part Number" "538-200241-1222")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/200241-1222?qs=PzGy0jfpSMvrXQ27oECKZA%3D%3D")
+   (attribute "Manufacturer_Name" "Molex")
+   (attribute "Manufacturer_Part_Number" "200241-1222")
+   (gate
+    (symbol "200241-1222")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "200241-1222"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "2002411222"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -8.875 -1.1)
+      (pt 3.175 -1.1)
+      (pt 3.175 -15.9)
+      (pt -8.875 -15.9)
+      (pt -8.875 -1.1))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -9.875 2.388)
+      (pt 5.35 2.388)
+      (pt 5.35 -19.1)
+      (pt -9.875 -19.1)
+      (pt -9.875 2.388))))
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -6.75 -15.9)
+      (pt -6.75 -18.1)
+      (pt 1.05 -18.1)
+      (pt 1.05 -15.9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -8.875 -1.1)
+      (pt -8.875 -15.9)
+      (pt 3.175 -15.9)
+      (pt 3.15 -1.1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.3)
+     (path
+      (closed true)
+      (pt 4.15 0.4)
+      (arc (pt 4.150 0.400) (pt 4.150 0.300) (pt 4.350 0.500) (start 180.0) (sweep 180.0))
+      (pt 4.35 0.4)
+      (arc (pt 4.350 0.400) (pt 4.150 0.300) (pt 4.350 0.500) (start 180.0) (sweep .0))
+      (pt 4.15 0.4))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt -5.700 0.000) (padstack 0))
+   (leg MH1 (pt -2.850 -7.300) (padstack 3))
+   (padstack 0
+    (hole 1.85)
+    (plated true)
+    (pad (layer TCOP) (round 2.775))
+    (pad (layer INNER) (round 2.775))
+    (pad (layer BCOP) (round 2.775))
+   )
+   (padstack 3
+    (hole 3.15)
+    (plated false)
+    (pad (layer TCOP) (round 1.575))
+    (pad (layer INNER) (round 1.575))
+    (pad (layer BCOP) (round 1.575))
+   )
+   (model "200241-1222.stp"
+    (euler 90 0 0)
+    (offset -2.8399999141693115 -15.800000190734863 3.819999933242798)
+   )
+  )
+ )
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CDSOT23_T15C_Q'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "CDSOT23-T15C-Q" (!) = "", "SOT95P230X117-3N", "SOT23 (3-Pin)", "652-CDSOT23-T15C-Q", "https://www.mouser.co.uk/ProductDetail/Bourns/CDSOT23-T15C-Q?qs=gZXFycFWdAPB6hWJxc%252Bycg%3D%3D", "ESD Suppressors / TVS Diodes TVS Diode 15V 500W BIDIR SOT23", "https://www.bourns.com/docs/product-datasheets/CDSOT23-TxxC-Q.pdf", "1.17 mm"
+END_PART
+
+END.

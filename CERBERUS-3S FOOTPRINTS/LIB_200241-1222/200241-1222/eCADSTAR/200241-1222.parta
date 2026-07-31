@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_4632363"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-06-05-11:45:43)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "200241-1222")
+)
+
+
+(pinAssign "ECS_4632363"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-06-05-11:45:43)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_4632363")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "200241-1222")
+)
+
+
+(part "200241-1222"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-06-05-11:45:43)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "200241-1222")
+    (pinAssignRef "ECS_4632363")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "MEGAFIT R/A TOP LATCH ASSY 15G 2CKT BLK ROHS COMPLIANT: YES")
+    (property "Mouser_Part_Number" "538-200241-1222")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/200241-1222?qs=PzGy0jfpSMvrXQ27oECKZA%3D%3D")
+    (property "Manufacturer_Name" "Molex")
+    (property "Manufacturer_Part_Number" "200241-1222")
+    (property "Datasheet_Link" "")
+    (property "compAreaTopHeight" 11.35)
+)
+
+

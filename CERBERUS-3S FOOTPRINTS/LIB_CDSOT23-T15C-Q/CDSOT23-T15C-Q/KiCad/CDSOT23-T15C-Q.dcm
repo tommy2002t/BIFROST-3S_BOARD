@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CDSOT23-T15C-Q
+D ESD Suppressors / TVS Diodes TVS Diode 15V 500W BIDIR SOT23
+K
+F https://www.bourns.com/docs/product-datasheets/CDSOT23-TxxC-Q.pdf
+$ENDCMP
+#
+#End Doc Library

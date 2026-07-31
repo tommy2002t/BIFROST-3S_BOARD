@@ -1,0 +1,16 @@
+.CDSOT23-T15C-Q :1 ;ESD Suppressors / TVS Diodes TVS Diode 15V 500W BIDIR SOT23
+SOT95P230X117-3N
+*STM D
+*NGS
+*PLB 1="1" 2="2" 3="3"
+*MXP 3
+*DFN CDSOT23-T15C-Q
+~!Mouser Part Number (652-CDSOT23-T15C-Q)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bourns/CDSOT23-T15C-Q?qs=gZXFycFWdAPB6hWJxc%252Bycg%3D%3D)
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (CDSOT23-T15C-Q)
+~!Link Datasheet (https://www.bourns.com/docs/product-datasheets/CDSOT23-TxxC-Q.pdf)
+~!Height (1.17mm)
+~!3D_Model (CDSOT23-T15C-Q)
+CDSOT23-T15C-Q
+1.1!U 2.1!U 3.1!U 
