@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MF-RHS800-0"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-01-02-13:19:24)
+    (mountForm default
+        (footprintRef "MFRHS8000")
+        (spec "System")
+    )
+)

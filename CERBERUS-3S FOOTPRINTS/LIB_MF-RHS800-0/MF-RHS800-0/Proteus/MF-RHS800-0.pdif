@@ -1,0 +1,118 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MF-RHS800-0"
+   (description "PTC 8.0A 16V RADIAL LEADED HI-TEMP")
+   (family "ANA")
+   (package "MFRHS8000")
+   (attribute "Datasheet Link" "https://www.bourns.com/docs/Product-Datasheets/MF-RHS.pdf")
+   (attribute "Geometry.Height" "24.7mm")
+   (attribute "Mouser Part Number" "652-MF-RHS800-0")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/MF-RHS800-0?qs=mELouGlnn3db4Obe02aVdw%3D%3D")
+   (attribute "Manufacturer_Name" "Bourns")
+   (attribute "Manufacturer_Part_Number" "MF-RHS800-0")
+   (gate
+    (symbol "MF-RHS800-0")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "MF-RHS800-0"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 50) (pt 500 50) (pt 500 -50) (pt 200 -50) (pt 200 50) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 220 -80) (pt 280 -80) (pt 420 80) (pt 480 80))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "MFRHS8000"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.85 -1.8)
+      (pt 8.95 -1.8)
+      (pt 8.95 1.8)
+      (pt -3.85 1.8)
+      (pt -3.85 -1.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3.85 -1.8)
+      (pt 8.95 -1.8)
+      (pt 8.95 1.8)
+      (pt -3.85 1.8)
+      (pt -3.85 -1.8))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.85 2.8)
+      (pt 9.95 2.8)
+      (pt 9.95 -2.8)
+      (pt -4.85 -2.8)
+      (pt -4.85 2.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.35 0)
+      (arc (pt -4.350 0.000) (pt -4.450 -0.050) (pt -4.350 0.050) (start 180.0) (sweep .0))
+      (pt -4.45 0)
+      (arc (pt -4.450 0.000) (pt -4.450 -0.050) (pt -4.350 0.050) (start 180.0) (sweep -180.0))
+      (pt -4.35 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 5.100 0.000) (padstack 2))
+   (padstack 0
+    (hole 1.2)
+    (plated true)
+    (pad (layer TCOP) (square 1.800))
+    (pad (layer INNER) (round 1.800))
+    (pad (layer BCOP) (square 1.800))
+   )
+   (padstack 2
+    (hole 1.2)
+    (plated true)
+    (pad (layer TCOP) (round 1.800))
+    (pad (layer INNER) (round 1.800))
+    (pad (layer BCOP) (round 1.800))
+   )
+   (model "MF-RHS800-0.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

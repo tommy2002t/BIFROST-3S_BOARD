@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=MF-RHS800-0
+PartCategory=Resettable Fuse
+PackageCategory=Other
+PinCount=2
+Version=2.2
+Released=2024-01-02 13:19:24
+Downloaded=2026-08-01 19:30:30
+3D=Y

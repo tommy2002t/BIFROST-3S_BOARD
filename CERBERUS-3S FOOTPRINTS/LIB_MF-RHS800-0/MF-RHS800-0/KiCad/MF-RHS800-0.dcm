@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MF-RHS800-0
+D PTC 8.0A 16V RADIAL LEADED HI-TEMP
+K
+F https://www.bourns.com/docs/Product-Datasheets/MF-RHS.pdf
+$ENDCMP
+#
+#End Doc Library

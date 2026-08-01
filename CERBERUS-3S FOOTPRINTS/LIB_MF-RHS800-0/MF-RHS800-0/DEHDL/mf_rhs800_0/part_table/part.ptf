@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MF_RHS800_0'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "MF-RHS800-0" (!) = "", "MFRHS8000", "Other", "652-MF-RHS800-0", "https://www.mouser.co.uk/ProductDetail/Bourns/MF-RHS800-0?qs=mELouGlnn3db4Obe02aVdw%3D%3D", "PTC 8.0A 16V RADIAL LEADED HI-TEMP", "https://www.bourns.com/docs/Product-Datasheets/MF-RHS.pdf", "24.7 mm"
+END_PART
+
+END.
