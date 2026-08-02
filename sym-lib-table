@@ -7,4 +7,5 @@
   (lib (name "CDSOT23-T15C-Q")(type "KiCad")(uri "${KIPRJMOD}/CERBERUS-3S FOOTPRINTS/LIB_CDSOT23-T15C-Q/CDSOT23-T15C-Q/KiCad/CDSOT23-T15C-Q.kicad_sym")(options "")(descr ""))
   (lib (name "560020-1020")(type "KiCad")(uri "${KIPRJMOD}/CERBERUS-3S FOOTPRINTS/LIB_560020-1020/560020-1020/KiCad/560020-1020.kicad_sym")(options "")(descr ""))
   (lib (name "MF-RHS800-0")(type "KiCad")(uri "${KIPRJMOD}/CERBERUS-3S FOOTPRINTS/LIB_MF-RHS800-0/MF-RHS800-0/KiCad/MF-RHS800-0.kicad_sym")(options "")(descr ""))
+  (lib (name "XT30PW-M")(type "KiCad")(uri "${KIPRJMOD}/CERBERUS-3S FOOTPRINTS/LIB_XT30PW-M/XT30PW-M/KiCad/XT30PW-M.kicad_sym")(options "")(descr ""))
 )

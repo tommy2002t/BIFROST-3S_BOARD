@@ -5,158 +5,6 @@
 	(uuid "61c97717-af7f-401d-a26a-01242b2529ed")
 	(paper "A5")
 	(lib_symbols
-		(symbol "200241-1222:200241-1222"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 16.51 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "200241-1222"
-				(at 16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "2002411222"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "MEGAFIT R/A TOP LATCH ASSY 15G 2CKT BLK ROHS COMPLIANT: YES"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "11.35"
-				(at 16.51 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "538-200241-1222"
-				(at 16.51 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/200241-1222?qs=PzGy0jfpSMvrXQ27oECKZA%3D%3D"
-				(at 16.51 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Molex"
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "200241-1222"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "200241-1222_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "560020-1020:560020-1020"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1262,6 +1110,214 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "XT30PW-M:XT30PW-M"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "XT30PW-M"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "XT30PWM"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/sl/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "30A Low Temperature Rise Fire Retardant Plug"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "5"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Amass"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "XT30PW-M"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "XT30PW-M_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1484,6 +1540,10 @@
 		(uuid "91527a0f-ce01-452b-b13d-df7cdba4b82f")
 	)
 	(no_connect
+		(at 64.77 74.93)
+		(uuid "01c44e63-0c33-49b0-b437-60ad61b3da89")
+	)
+	(no_connect
 		(at 100.33 73.66)
 		(uuid "1cc5856c-f880-4fd3-833e-ad0a0052b6ad")
 	)
@@ -1492,8 +1552,30 @@
 		(uuid "2b58c248-20d7-44a6-ae03-02e0dff8b12d")
 	)
 	(no_connect
+		(at 185.42 48.26)
+		(uuid "2ec72469-c662-4af4-8a6c-77ff7612c5ef")
+	)
+	(no_connect
+		(at 64.77 77.47)
+		(uuid "38775993-1b6f-4954-a484-d97fdd4bb4a1")
+	)
+	(no_connect
 		(at 25.4 26.67)
 		(uuid "a32e7e22-cd62-45f7-b345-86b9fb45f2b7")
+	)
+	(no_connect
+		(at 185.42 50.8)
+		(uuid "da68c0bc-0218-456f-bfb9-48585e02d0f4")
+	)
+	(wire
+		(pts
+			(xy 29.21 77.47) (xy 29.21 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "192ea1c3-0b94-4d4f-8e5f-1e251aaafe6c")
 	)
 	(wire
 		(pts
@@ -1517,13 +1599,13 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 67.31) (xy 25.4 67.31)
+			(xy 161.29 50.8) (xy 161.29 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25ac3a97-042d-4bef-b110-dd330fe022c9")
+		(uuid "23b0a2c6-5fac-4103-927a-a8a7a64625b6")
 	)
 	(wire
 		(pts
@@ -1534,16 +1616,6 @@
 			(type default)
 		)
 		(uuid "345f5611-866a-48f5-9f32-ccbee66bf0fe")
-	)
-	(wire
-		(pts
-			(xy 25.4 67.31) (xy 25.4 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "452e43fc-9b77-4993-bc55-4e30f265c9ee")
 	)
 	(wire
 		(pts
@@ -1607,26 +1679,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 26.67) (xy 146.05 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70fee35e-0ccb-44b4-836b-8cba4c7f1a88")
-	)
-	(wire
-		(pts
-			(xy 146.05 26.67) (xy 146.05 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8541a692-2f2a-4e30-a394-9c0725eb6e9f")
-	)
-	(wire
-		(pts
 			(xy 60.96 49.53) (xy 60.96 50.8)
 		)
 		(stroke
@@ -1644,6 +1696,26 @@
 			(type default)
 		)
 		(uuid "a454d300-bed6-46f4-9c71-2649df661f31")
+	)
+	(wire
+		(pts
+			(xy 29.21 74.93) (xy 44.45 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ade737-cd9f-4dc6-bc7a-23b67a07c9ed")
+	)
+	(wire
+		(pts
+			(xy 165.1 50.8) (xy 161.29 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad96d5e6-519f-4f89-85c8-881d43f935f3")
 	)
 	(wire
 		(pts
@@ -1716,7 +1788,7 @@
 		(uuid "1c291fb8-7724-476c-b4d1-c50e0851a5bf")
 	)
 	(label "PACK+_RAW"
-		(at 154.94 50.8 180)
+		(at 157.48 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1734,6 +1806,16 @@
 			(justify left bottom)
 		)
 		(uuid "2f2b480e-c2e6-4161-854d-9efcfe0efeba")
+	)
+	(label "+BATT"
+		(at 165.1 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2f41bccd-c6df-412c-9f19-3930596f2858")
 	)
 	(label "BAT1"
 		(at 99.06 25.4 180)
@@ -1765,6 +1847,16 @@
 		)
 		(uuid "5b5c588e-aaab-41ab-a1ac-de6c0a7b81ac")
 	)
+	(label "PACK+_RAW"
+		(at 44.45 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b528ed2-878f-491b-8d32-1a4f9487719e")
+	)
 	(label "+BATT"
 		(at 100.33 71.12 180)
 		(effects
@@ -1794,16 +1886,6 @@
 			(justify left bottom)
 		)
 		(uuid "b5d67341-10c4-4850-9a08-d1593e8febcc")
-	)
-	(label "+BATT"
-		(at 154.94 29.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bcbddaed-c97e-45d7-adec-25f48dcaebc5")
 	)
 	(label "BQ2_TS2"
 		(at 100.33 52.07 180)
@@ -1856,7 +1938,7 @@
 		(uuid "e2b929d1-9801-45f3-9877-d85464caae6c")
 	)
 	(label "+BATT"
-		(at 172.72 50.8 0)
+		(at 175.26 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1864,82 +1946,6 @@
 			(justify left bottom)
 		)
 		(uuid "f0d068cf-fff8-46cc-ab49-04df41be6d7f")
-	)
-	(label "PACK+_RAW"
-		(at 29.21 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f71c0363-fa8b-4043-a26a-2b4742ad8e4d")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 25.4 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07bb92db-6dfb-447b-ba24-77a06256a94f")
-		(property "Reference" "#PWR011"
-			(at 25.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 25.4 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8654e3f-9792-4132-86e9-ff7f8132df05")
-		)
-		(instances
-			(project "BIFROST-3S"
-				(path "/61c97717-af7f-401d-a26a-01242b2529ed"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "CDSOT23-T15C-Q:CDSOT23-T15C-Q")
@@ -2065,128 +2071,6 @@
 		)
 	)
 	(symbol
-		(lib_id "200241-1222:200241-1222")
-		(at 29.21 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0df2744a-6604-44ff-ad5c-b5c9d54a4df8")
-		(property "Reference" "J7"
-			(at 45.72 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "200241-1222"
-			(at 45.72 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "200241-1222:2002411222"
-			(at 45.72 159.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 259.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEGAFIT R/A TOP LATCH ASSY 15G 2CKT BLK ROHS COMPLIANT: YES"
-			(at 29.21 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "11.35"
-			(at 45.72 459.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "538-200241-1222"
-			(at 45.72 559.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/200241-1222?qs=PzGy0jfpSMvrXQ27oECKZA%3D%3D"
-			(at 45.72 659.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 45.72 759.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "200241-1222"
-			(at 45.72 859.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9d700854-ed18-4c27-9496-f4c1afb46966")
-		)
-		(pin "1"
-			(uuid "e51d395b-8c60-4a0d-ab48-ec8c5d5ca6c2")
-		)
-		(instances
-			(project "BIFROST-3S"
-				(path "/61c97717-af7f-401d-a26a-01242b2529ed"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 88.9 53.34 0)
 		(unit 1)
@@ -2196,7 +2080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "243abc5f-a472-43b8-83dd-e2332aad4d40")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR05"
 			(at 88.9 59.69 0)
 			(effects
 				(font
@@ -2246,7 +2130,7 @@
 		(instances
 			(project "CERBERUS-3S"
 				(path "/61c97717-af7f-401d-a26a-01242b2529ed"
-					(reference "#PWR07")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2262,7 +2146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "280ec52d-ce02-4f96-841e-fbd413a4613f")
-		(property "Reference" "J5"
+		(property "Reference" "J3"
 			(at 116.84 49.5299 0)
 			(effects
 				(font
@@ -2374,7 +2258,7 @@
 		(instances
 			(project ""
 				(path "/61c97717-af7f-401d-a26a-01242b2529ed"
-					(reference "J5")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -2456,7 +2340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3db7b42d-0b9d-4fcf-a3af-e64ff0b5a7d6")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR03"
 			(at 60.96 57.15 0)
 			(effects
 				(font
@@ -2506,7 +2390,7 @@
 		(instances
 			(project "BIFROST-3S"
 				(path "/61c97717-af7f-401d-a26a-01242b2529ed"
-					(reference "#PWR09")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2522,7 +2406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "414ecc09-444b-46dc-ab86-439dfa783013")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR06"
 			(at 127 82.55 0)
 			(effects
 				(font
@@ -2572,7 +2456,365 @@
 		(instances
 			(project "CERBERUS-3S"
 				(path "/61c97717-af7f-401d-a26a-01242b2529ed"
-					(reference "#PWR08")
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XT30PW-M:XT30PW-M")
+		(at 165.1 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f75fd84-87db-4ddf-9481-680486ea5581")
+		(property "Reference" "J4"
+			(at 175.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT30PW-M"
+			(at 175.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XT30PW-M:XT30PWM"
+			(at 181.61 143.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/sl/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf"
+			(at 181.61 243.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "30A Low Temperature Rise Fire Retardant Plug"
+			(at 165.1 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5"
+			(at 181.61 443.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 181.61 543.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT30PW-M"
+			(at 181.61 643.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 181.61 743.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 181.61 843.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 181.61 943.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 181.61 1043.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "683b41f7-10c0-4f56-90c9-39903e9fcda8")
+		)
+		(pin "4"
+			(uuid "fb271299-8bf1-4988-85eb-c123c59a6aea")
+		)
+		(pin "1"
+			(uuid "c7914120-ac90-4dd6-8688-3e8344d18e2f")
+		)
+		(pin "3"
+			(uuid "20a44215-f0b6-4e8a-a2dd-b7e86d33b437")
+		)
+		(instances
+			(project "BIFROST-3S"
+				(path "/61c97717-af7f-401d-a26a-01242b2529ed"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "622d13bc-fbf8-4354-b9b9-10687daf6ffe")
+		(property "Reference" "#PWR04"
+			(at 161.29 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54d826a0-c761-4a6b-b4cc-edf6ea30a0d2")
+		)
+		(instances
+			(project "BIFROST-3S"
+				(path "/61c97717-af7f-401d-a26a-01242b2529ed"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XT30PW-M:XT30PW-M")
+		(at 44.45 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70333fb0-1881-4104-aefb-96088a7fb6a2")
+		(property "Reference" "J5"
+			(at 54.61 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT30PW-M"
+			(at 54.61 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XT30PW-M:XT30PWM"
+			(at 60.96 169.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/sl/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf"
+			(at 60.96 269.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "30A Low Temperature Rise Fire Retardant Plug"
+			(at 44.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5"
+			(at 60.96 469.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 60.96 569.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT30PW-M"
+			(at 60.96 669.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 60.96 769.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 60.96 869.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 60.96 969.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 60.96 1069.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fcf04302-780b-4c22-9651-d64c40be06dd")
+		)
+		(pin "4"
+			(uuid "c095bee6-da20-4491-aa08-5755c6f4b2e4")
+		)
+		(pin "1"
+			(uuid "9949f4b0-22a1-4195-8a9c-a6cfb0630d76")
+		)
+		(pin "3"
+			(uuid "76ab0c6c-b1f4-4e74-a280-e79f8545463b")
+		)
+		(instances
+			(project ""
+				(path "/61c97717-af7f-401d-a26a-01242b2529ed"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -2588,7 +2830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5d8dfa9-9a2f-4aa6-9c5f-b8cfef42d51b")
-		(property "Reference" "J4"
+		(property "Reference" "J1"
 			(at 115.57 27.9399 0)
 			(effects
 				(font
@@ -2706,7 +2948,7 @@
 		(instances
 			(project ""
 				(path "/61c97717-af7f-401d-a26a-01242b2529ed"
-					(reference "J4")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2722,7 +2964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa262d71-05ca-42ab-b910-d11ed8395a8c")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR01"
 			(at 66.04 43.18 0)
 			(effects
 				(font
@@ -2772,7 +3014,7 @@
 		(instances
 			(project "BIFROST-3S"
 				(path "/61c97717-af7f-401d-a26a-01242b2529ed"
-					(reference "#PWR010")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2788,7 +3030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0728383-0bc1-4ee9-aec8-fa7080e42a9c")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR02"
 			(at 83.82 44.45 0)
 			(effects
 				(font
@@ -2838,129 +3080,7 @@
 		(instances
 			(project "CERBERUS-3S"
 				(path "/61c97717-af7f-401d-a26a-01242b2529ed"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "200241-1222:200241-1222")
-		(at 154.94 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf7da009-a709-4a90-bbe1-1156165ad292")
-		(property "Reference" "J3"
-			(at 171.45 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "200241-1222"
-			(at 171.45 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "200241-1222:2002411222"
-			(at 171.45 121.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 221.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEGAFIT R/A TOP LATCH ASSY 15G 2CKT BLK ROHS COMPLIANT: YES"
-			(at 154.94 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "11.35"
-			(at 171.45 421.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "538-200241-1222"
-			(at 171.45 521.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/200241-1222?qs=PzGy0jfpSMvrXQ27oECKZA%3D%3D"
-			(at 171.45 621.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 171.45 721.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "200241-1222"
-			(at 171.45 821.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8aa5c36-45fb-4ea6-9d76-f664b0f99353")
-		)
-		(pin "2"
-			(uuid "a9ea9411-f96c-47ac-8c3e-abe6c35ce655")
-		)
-		(instances
-			(project ""
-				(path "/61c97717-af7f-401d-a26a-01242b2529ed"
-					(reference "J3")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2968,16 +3088,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 30.48 0)
+		(at 29.21 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d0b01611-d7cb-4390-a57e-1c0377aa1f1b")
-		(property "Reference" "#PWR05"
-			(at 146.05 36.83 0)
+		(uuid "eb5df57d-4b58-4de3-8ba7-564615303e33")
+		(property "Reference" "#PWR07"
+			(at 29.21 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,7 +3106,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 35.56 0)
+			(at 29.21 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2994,7 +3114,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 30.48 0)
+			(at 29.21 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3003,7 +3123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 30.48 0)
+			(at 29.21 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3012,7 +3132,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 30.48 0)
+			(at 29.21 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3021,12 +3141,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "31c3b0d7-a311-4971-a4a6-ddc24f7d4df9")
+			(uuid "a3cdfd1b-51c4-42b9-9a05-a4825bed678e")
 		)
 		(instances
-			(project "CERBERUS-3S"
+			(project "BIFROST-3S"
 				(path "/61c97717-af7f-401d-a26a-01242b2529ed"
-					(reference "#PWR05")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3042,7 +3162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f442005e-20f1-43ca-9051-9c10dfd3bfec")
-		(property "Reference" "J6"
+		(property "Reference" "J2"
 			(at 38.1 19.05 0)
 			(effects
 				(font
@@ -3176,7 +3296,7 @@
 		(instances
 			(project ""
 				(path "/61c97717-af7f-401d-a26a-01242b2529ed"
-					(reference "J6")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3184,7 +3304,7 @@
 	)
 	(symbol
 		(lib_id "MF-RHS800-0:MF-RHS800-0")
-		(at 154.94 50.8 0)
+		(at 157.48 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3193,7 +3313,7 @@
 		(fields_autoplaced yes)
 		(uuid "fea8edbe-f692-4e7d-a607-d80e532418b9")
 		(property "Reference" "F1"
-			(at 163.83 43.18 0)
+			(at 166.37 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3201,7 +3321,7 @@
 			)
 		)
 		(property "Value" "MF-RHS800-0"
-			(at 163.83 45.72 0)
+			(at 166.37 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3209,7 +3329,7 @@
 			)
 		)
 		(property "Footprint" "MF-RHS800-0:MFRHS8000"
-			(at 168.91 146.99 0)
+			(at 171.45 127.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3219,7 +3339,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/MF-RHS.pdf"
-			(at 168.91 246.99 0)
+			(at 171.45 227.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3229,7 +3349,7 @@
 			)
 		)
 		(property "Description" "PTC 8.0A 16V RADIAL LEADED HI-TEMP"
-			(at 154.94 50.8 0)
+			(at 157.48 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3238,7 +3358,7 @@
 			)
 		)
 		(property "Height" "24.7"
-			(at 168.91 446.99 0)
+			(at 171.45 427.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3248,7 +3368,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-MF-RHS800-0"
-			(at 168.91 546.99 0)
+			(at 171.45 527.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3258,7 +3378,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/MF-RHS800-0?qs=mELouGlnn3db4Obe02aVdw%3D%3D"
-			(at 168.91 646.99 0)
+			(at 171.45 627.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3268,7 +3388,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 168.91 746.99 0)
+			(at 171.45 727.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3278,7 +3398,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MF-RHS800-0"
-			(at 168.91 846.99 0)
+			(at 171.45 827.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)

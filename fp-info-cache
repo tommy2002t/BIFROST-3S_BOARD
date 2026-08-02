@@ -1,4 +1,4 @@
-26886922025899296
+26890493129483544
 1-776267-1
 17762671
 1-776267-1-2
@@ -20,6 +20,13 @@ Connector
 0
 2
 2
+560020-1020
+5600201020
+560020-1020-2
+Connector
+0
+12
+12
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70804,6 +70811,13 @@ Integrated Circuit
 0
 4
 4
+MF-RHS800-0
+MFRHS8000
+MF-RHS800-0-2
+Resettable Fuse
+0
+2
+2
 MMBT5551LT1G
 SOT96P237X111-3N
 SOT−23 (TO−236) CASESOT−23 (TO−236) CASE 318 ISSUE AT 318 ISSUE AT
