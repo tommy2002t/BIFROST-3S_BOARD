@@ -10241,7 +10241,7 @@
 		(descr "SOT-323_2021")
 		(tags "TVS Diode (Bi-directional)")
 		(property "Reference" "D1"
-			(at 2.4975 -3.74 0)
+			(at 0.02 1.974651 0)
 			(layer "B.SilkS")
 			(uuid "e0d1e194-bac5-41a6-a001-2f24b2d5336e")
 			(effects
@@ -10498,7 +10498,7 @@
 			(uuid "c6245c65-277b-49f8-b21c-91baa686b0bb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.4975 -3.74 0)
+			(at 0.02 1.98 0)
 			(layer "B.Fab")
 			(uuid "8bfc2f32-1695-4979-811e-c98952069758")
 			(effects
@@ -22952,6 +22952,58 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "fee384f2-e63b-46e4-bd3d-6d98ee2a78fe")
+	)
+	(gr_text "-"
+		(at 151.79 101.1 0)
+		(layer "F.SilkS")
+		(uuid "972a412d-cb59-4ffc-92f9-d6c4b36082e0")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 151.521742 110.801639 0)
+		(layer "F.SilkS")
+		(uuid "a8227fee-d89a-47c3-a4c2-43c0bdaf9ade")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 163.96625 101.1 0)
+		(layer "F.SilkS")
+		(uuid "c8479031-40d8-450e-99f0-f472a60d0df4")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 163.81 110.801639 0)
+		(layer "F.SilkS")
+		(uuid "d0828e58-0cdd-4d61-800e-42ea4a039ebb")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 121.91 95.84)

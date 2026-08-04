@@ -1,0 +1,7 @@
+Reference;Qty;Value;DNP;Exclude from BOM;Exclude from Board;Footprint;Datasheet;Manufacturer_Part_Number
+D1;1;CDSOT23-T15C-Q;;;;CDSOT23-T15C-Q:SOT95P230X117-3N;https://www.bourns.com/docs/product-datasheets/CDSOT23-TxxC-Q.pdf;CDSOT23-T15C-Q
+F1;1;MF-RHS800-0;;;;MF-RHS800-0:MFRHS8000;https://www.bourns.com/docs/Product-Datasheets/MF-RHS.pdf;MF-RHS800-0
+J1;1;B6B-XH-A_LF__SN_;;;;B6B-XH-A_LF__SN_:SHDR6W64P0X250_1X6_1740X575X700P;https://datasheet.lcsc.com/szlcsc/JST-Sales-America-B6B-XH-A-LF-SN_C144397.pdf;B6B-XH-A(LF)(SN)
+J2;1;560020-1020;;;;560020-1020:5600201020;https://www.molex.com/pdm_docs/sd/5600201020_sd.pdf;560020-1020
+J3;1;B4B-XH-A_LF__SN_;;;;B4B-XH-A_LF__SN_:B4BXHALFSN;https://datasheet.lcsc.com/szlcsc/JST-Sales-America-B4B-XH-A-LF-SN_C144395.pdf;B4B-XH-A(LF)(SN)
+J4,J5;2;XT30PW-M;;;;XT30PW-M:XT30PWM;https://www.tme.eu/sl/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf;XT30PW-M
