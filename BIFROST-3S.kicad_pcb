@@ -3597,15 +3597,14 @@
 		(descr "MF-RHS800-0-2")
 		(tags "Resettable Fuse")
 		(property "Reference" "F1"
-			(at -2.5425 -0.4625 90)
-			(layer "B.SilkS")
+			(at 0.5175 2.9875 0)
+			(layer "F.SilkS")
 			(uuid "115cefd8-a668-49ad-85d3-e0d3392728ca")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.153)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Value" "MF-RHS800-0"
@@ -3876,15 +3875,14 @@
 			(uuid "7df50d50-3fcb-4114-84fd-053d1f33869f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -2.5425 -0.4625 90)
-			(layer "B.Fab")
+			(at 0.5175 2.9875 0)
+			(layer "F.Fab")
 			(uuid "de07d4af-d995-4934-bf0f-e469ad51ede1")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.153)
 				)
-				(justify mirror)
 			)
 		)
 		(pad "1" thru_hole rect
@@ -6009,15 +6007,14 @@
 		(descr "B4B-XH-A(LF)(SN)-3")
 		(tags "Connector")
 		(property "Reference" "J3"
-			(at 8.99 -2.545 0)
-			(layer "B.SilkS")
+			(at -1.74 -4.745 -0)
+			(layer "F.SilkS")
 			(uuid "a8346c78-d91e-477c-b2de-2c2f84ff2640")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.153)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Value" "B4B-XH-A_LF__SN_"
@@ -6246,15 +6243,14 @@
 			(uuid "3ffc7e06-8f0c-4cb2-bd2e-48b7bdc7ddbc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 8.99 -2.545 0)
-			(layer "B.Fab")
+			(at -1.74 -4.745 -0)
+			(layer "F.Fab")
 			(uuid "c4e73b2f-6caf-47ff-a890-2fe0ec6f1a20")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.153)
 				)
-				(justify mirror)
 			)
 		)
 		(pad "1" thru_hole circle
@@ -7754,15 +7750,14 @@
 		(descr "XT30PW-M")
 		(tags "Connector")
 		(property "Reference" "J4"
-			(at 0 0 0)
-			(layer "B.SilkS")
+			(at 6.11 -7.1 -0)
+			(layer "F.SilkS")
 			(uuid "76658336-9668-41e9-b68f-8ba1b48439cf")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.153)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Value" "XT30PW-M"
@@ -8047,15 +8042,14 @@
 			(uuid "74345898-61e5-419d-b0bd-314935ac19b1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "B.Fab")
+			(at 6.11 -7.1 -0)
+			(layer "F.Fab")
 			(uuid "48f943ad-2ff1-45ac-a0ed-6b58234bdf64")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.153)
 				)
-				(justify mirror)
 			)
 		)
 		(pad "1" thru_hole circle
@@ -9128,15 +9122,14 @@
 		(descr "B6B-XH-A(LF)(SN)")
 		(tags "Connector")
 		(property "Reference" "J1"
-			(at 13.83 -2.435 0)
-			(layer "B.SilkS")
+			(at 14.31 -4.825 -0)
+			(layer "F.SilkS")
 			(uuid "10438a5d-871a-4c29-99d6-2ceb5b70eae8")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.153)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Value" "B6B-XH-A_LF__SN_"
@@ -9365,15 +9358,14 @@
 			(uuid "8360acd2-0528-452d-97c3-774c75ca3dba")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 13.83 -2.435 0)
-			(layer "B.Fab")
+			(at 14.31 -4.825 -0)
+			(layer "F.Fab")
 			(uuid "bb19d791-f10d-425f-bd74-e77f807acfd3")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.153)
 				)
-				(justify mirror)
 			)
 		)
 		(pad "1" thru_hole rect
@@ -9462,15 +9454,14 @@
 		(descr "XT30PW-M")
 		(tags "Connector")
 		(property "Reference" "J5"
-			(at 0 0 0)
-			(layer "B.SilkS")
+			(at -6.15 -6.15 0)
+			(layer "F.SilkS")
 			(uuid "79b37f15-f71b-4c0b-a6fb-3cdb2690c8a7")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.153)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Value" "XT30PW-M"
@@ -9755,15 +9746,14 @@
 			(uuid "e67bbd0f-d81e-4a1d-b394-5ba383e95f76")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "B.Fab")
+			(at -6.15 -6.15 0)
+			(layer "F.Fab")
 			(uuid "4275da5c-152e-455d-a230-579b797c2058")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.153)
 				)
-				(justify mirror)
 			)
 		)
 		(pad "1" thru_hole circle
@@ -9830,15 +9820,14 @@
 		(descr "560020-1020-2")
 		(tags "Connector")
 		(property "Reference" "J2"
-			(at 1.75 1.75 0)
-			(layer "B.SilkS")
+			(at 14.92 0.21 -180)
+			(layer "F.SilkS")
 			(uuid "53cbf9ef-5660-46a0-8626-5b1feee0127d")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.153)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Value" "560020-1020"
@@ -10097,15 +10086,14 @@
 			(uuid "1bacf01d-e7cc-4aba-beb2-80e78ff78545")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.75 1.75 0)
-			(layer "B.Fab")
+			(at 14.92 0.21 -180)
+			(layer "F.Fab")
 			(uuid "8fca61ea-5142-42d3-8810-83a31b91c8b3")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.153)
 				)
-				(justify mirror)
 			)
 		)
 		(pad "1" smd rect
@@ -10236,15 +10224,14 @@
 		(descr "SOT-323_2021")
 		(tags "TVS Diode (Bi-directional)")
 		(property "Reference" "D1"
-			(at 2.95 0.184651 0)
-			(layer "B.SilkS")
+			(at 1.46 2.58 -0)
+			(layer "F.SilkS")
 			(uuid "ffcca19a-e3ab-4e00-8b19-dc003454925e")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.153)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Value" "CDSOT23-T15C-Q"
@@ -10493,15 +10480,14 @@
 			(uuid "c6245c65-277b-49f8-b21c-91baa686b0bb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.95 0.19 0)
-			(layer "B.Fab")
+			(at 1.46 2.585349 -0)
+			(layer "F.Fab")
 			(uuid "8bfc2f32-1695-4979-811e-c98952069758")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.153)
 				)
-				(justify mirror)
 			)
 		)
 		(pad "1" smd rect
