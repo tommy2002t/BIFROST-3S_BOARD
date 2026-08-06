@@ -8,4 +8,5 @@
   (lib (name "560020-1020")(type "KiCad")(uri "${KIPRJMOD}/CERBERUS-3S FOOTPRINTS/LIB_560020-1020/560020-1020/KiCad/560020-1020.pretty")(options "")(descr ""))
   (lib (name "MF-RHS800-0")(type "KiCad")(uri "${KIPRJMOD}/CERBERUS-3S FOOTPRINTS/LIB_MF-RHS800-0/MF-RHS800-0/KiCad/MF-RHS800-0.pretty")(options "")(descr ""))
   (lib (name "XT30PW-M")(type "KiCad")(uri "${KIPRJMOD}/CERBERUS-3S FOOTPRINTS/LIB_XT30PW-M/XT30PW-M/KiCad/XT30PW-M.pretty")(options "")(descr ""))
+  (lib (name "Bifrost_Wire_Pads")(type "KiCad")(uri "${KIPRJMOD}/CERBERUS-3S FOOTPRINTS/Bifrost_Wire_Pads.pretty")(options "")(descr ""))
 )
