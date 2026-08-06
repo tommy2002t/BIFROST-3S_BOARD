@@ -6007,7 +6007,7 @@
 		(descr "B4B-XH-A(LF)(SN)-3")
 		(tags "Connector")
 		(property "Reference" "J3"
-			(at -1.74 -4.745 -0)
+			(at -1.74 -4.745 0)
 			(layer "F.SilkS")
 			(uuid "a8346c78-d91e-477c-b2de-2c2f84ff2640")
 			(effects
@@ -6243,7 +6243,7 @@
 			(uuid "3ffc7e06-8f0c-4cb2-bd2e-48b7bdc7ddbc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -1.74 -4.745 -0)
+			(at -1.74 -4.745 0)
 			(layer "F.Fab")
 			(uuid "c4e73b2f-6caf-47ff-a890-2fe0ec6f1a20")
 			(effects
@@ -7750,7 +7750,7 @@
 		(descr "XT30PW-M")
 		(tags "Connector")
 		(property "Reference" "J4"
-			(at 6.11 -7.1 -0)
+			(at 6.11 -7.1 0)
 			(layer "F.SilkS")
 			(uuid "76658336-9668-41e9-b68f-8ba1b48439cf")
 			(effects
@@ -8042,7 +8042,7 @@
 			(uuid "74345898-61e5-419d-b0bd-314935ac19b1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 6.11 -7.1 -0)
+			(at 6.11 -7.1 0)
 			(layer "F.Fab")
 			(uuid "48f943ad-2ff1-45ac-a0ed-6b58234bdf64")
 			(effects
@@ -9122,7 +9122,7 @@
 		(descr "B6B-XH-A(LF)(SN)")
 		(tags "Connector")
 		(property "Reference" "J1"
-			(at 14.31 -4.825 -0)
+			(at 14.31 -4.825 0)
 			(layer "F.SilkS")
 			(uuid "10438a5d-871a-4c29-99d6-2ceb5b70eae8")
 			(effects
@@ -9358,7 +9358,7 @@
 			(uuid "8360acd2-0528-452d-97c3-774c75ca3dba")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 14.31 -4.825 -0)
+			(at 14.31 -4.825 0)
 			(layer "F.Fab")
 			(uuid "bb19d791-f10d-425f-bd74-e77f807acfd3")
 			(effects
@@ -9820,7 +9820,7 @@
 		(descr "560020-1020-2")
 		(tags "Connector")
 		(property "Reference" "J2"
-			(at 14.92 0.21 -180)
+			(at 14.92 0.21 180)
 			(layer "F.SilkS")
 			(uuid "53cbf9ef-5660-46a0-8626-5b1feee0127d")
 			(effects
@@ -10086,7 +10086,7 @@
 			(uuid "1bacf01d-e7cc-4aba-beb2-80e78ff78545")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 14.92 0.21 -180)
+			(at 14.92 0.21 180)
 			(layer "F.Fab")
 			(uuid "8fca61ea-5142-42d3-8810-83a31b91c8b3")
 			(effects
@@ -10224,7 +10224,7 @@
 		(descr "SOT-323_2021")
 		(tags "TVS Diode (Bi-directional)")
 		(property "Reference" "D1"
-			(at 1.46 2.58 -0)
+			(at 1.46 2.58 0)
 			(layer "F.SilkS")
 			(uuid "ffcca19a-e3ab-4e00-8b19-dc003454925e")
 			(effects
@@ -10480,7 +10480,7 @@
 			(uuid "c6245c65-277b-49f8-b21c-91baa686b0bb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.46 2.585349 -0)
+			(at 1.46 2.585349 0)
 			(layer "F.Fab")
 			(uuid "8bfc2f32-1695-4979-811e-c98952069758")
 			(effects
