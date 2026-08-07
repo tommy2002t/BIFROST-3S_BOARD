@@ -6687,7 +6687,7 @@
 		(path "/be4fe240-bc7d-48a2-99c9-a92106f0450f")
 		(sheetname "/")
 		(sheetfile "BIFROST-3S.kicad_sch")
-		(attr smd)
+		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at -20.448 3.868611 90)
 			(size 1.65 1.65)
