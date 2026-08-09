@@ -1,0 +1,16 @@
+.3588-15 :1 ;Fuse Holder 20 A 500V 1 Circuit Blade Surface Mount
+"358815"
+*STM U
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4"
+*MXP 4
+*DFN 3588-15
+~!Mouser Part Number (534-3588-15)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3588-15?qs=u16ybLDytRaSVK7r0YphMA%3D%3D)
+~!Manufacturer_Name (Keystone Electronics)
+~!Manufacturer_Part_Number (3588-15)
+~!Link Datasheet (http://www.keystoneelectronics.net/ENG._DEPT/WEB_ORACLE/PDF/PDF%20CAT%20NO%20DRAWINGS/3000-3999/3588-15.PDF)
+~!Height (8.37mm)
+~!3D_Model (3588-15)
+"3588-15"
+1.1!U 2.1!U 3.1!U 4.1!U 

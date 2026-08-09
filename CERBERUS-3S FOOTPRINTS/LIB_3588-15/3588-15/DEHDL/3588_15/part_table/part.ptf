@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '3588_15'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Keystone Electronics", "3588-15" (!) = "", "358815", "Other", "534-3588-15", "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3588-15?qs=u16ybLDytRaSVK7r0YphMA%3D%3D", "Fuse Holder 20 A 500V 1 Circuit Blade Surface Mount", "http://www.keystoneelectronics.net/ENG._DEPT/WEB_ORACLE/PDF/PDF%20CAT%20NO%20DRAWINGS/3000-3999/3588-15.PDF", "8.37 mm"
+END_PART
+
+END.

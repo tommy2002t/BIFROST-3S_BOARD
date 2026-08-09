@@ -1,0 +1,9 @@
+Manufacturer=Keystone Electronics
+PartNumber=3588-15
+PartCategory=Undefined or Miscellaneous
+PackageCategory=Other
+PinCount=4
+Version=2.2
+Released=2025-07-02 15:34:47
+Downloaded=2026-08-08 07:50:44
+3D=Y

@@ -1623,7 +1623,7 @@
 	)
 	(rectangle
 		(start 86.36 15.875)
-		(end 128.27 62.23)
+		(end 146.685 62.23)
 		(stroke
 			(width 0)
 			(type default)
@@ -1646,8 +1646,8 @@
 		(uuid 979cecb7-e481-4daf-a110-5d9e14466354)
 	)
 	(rectangle
-		(start 133.35 16.51)
-		(end 175.895 40.005)
+		(start 151.13 16.51)
+		(end 193.675 40.005)
 		(stroke
 			(width 0)
 			(type default)
@@ -1659,7 +1659,7 @@
 	)
 	(text "Power Output"
 		(exclude_from_sim no)
-		(at 139.954 14.986 0)
+		(at 157.734 14.986 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1699,16 +1699,22 @@
 		(color 0 0 0 0)
 		(uuid "bd427ad9-0b0e-4cdc-975a-5c99318d9f1e")
 	)
+	(junction
+		(at 106.68 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef8d8413-5202-4f00-b5e7-9dde5db3d7fd")
+	)
 	(no_connect
-		(at 95.25 49.53)
+		(at 107.95 49.53)
 		(uuid "1cc5856c-f880-4fd3-833e-ad0a0052b6ad")
 	)
 	(no_connect
-		(at 166.37 26.67)
+		(at 184.15 26.67)
 		(uuid "2ec72469-c662-4af4-8a6c-77ff7612c5ef")
 	)
 	(no_connect
-		(at 166.37 29.21)
+		(at 184.15 29.21)
 		(uuid "da68c0bc-0218-456f-bfb9-48585e02d0f4")
 	)
 	(wire
@@ -1733,7 +1739,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 29.21) (xy 146.05 29.21)
+			(xy 160.02 29.21) (xy 163.83 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1753,27 +1759,17 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 62.23) (xy 158.75 63.5)
+			(xy 106.68 26.67) (xy 107.95 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d46d4c6-8072-4363-9cad-6f7cb08e00f7")
+		(uuid "4b7ee3da-6891-46e6-97ec-feb269054158")
 	)
 	(wire
 		(pts
-			(xy 158.75 62.23) (xy 157.48 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cb6c386-bd0a-4d3d-b30a-855841fbfe2c")
-	)
-	(wire
-		(pts
-			(xy 142.24 31.75) (xy 142.24 29.21)
+			(xy 160.02 31.75) (xy 160.02 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1783,7 +1779,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 46.99) (xy 121.92 46.99)
+			(xy 128.27 46.99) (xy 134.62 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1793,7 +1789,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 46.99) (xy 121.92 52.07)
+			(xy 134.62 46.99) (xy 134.62 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1803,7 +1799,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 53.34) (xy 142.24 63.5)
+			(xy 160.02 53.34) (xy 160.02 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1813,7 +1809,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 62.23) (xy 157.48 53.34)
+			(xy 175.26 53.34) (xy 175.26 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1830,6 +1826,16 @@
 			(type default)
 		)
 		(uuid "a454d300-bed6-46f4-9c71-2649df661f31")
+	)
+	(wire
+		(pts
+			(xy 104.14 26.67) (xy 106.68 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4db4164-5b70-4574-9d26-df7d5e9a3f2d")
 	)
 	(wire
 		(pts
@@ -1853,13 +1859,23 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 55.88) (xy 152.4 63.5)
+			(xy 104.14 46.99) (xy 107.95 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d5635833-9233-4895-8a83-effb6e637896")
+		(uuid "c05a0abd-b969-48a1-a4f8-b33350ecea82")
+	)
+	(wire
+		(pts
+			(xy 130.81 26.67) (xy 125.73 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e527b821-ed73-4b1f-908e-27d97dcba123")
 	)
 	(wire
 		(pts
@@ -1873,7 +1889,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 53.34) (xy 167.64 63.5)
+			(xy 185.42 53.34) (xy 185.42 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1883,17 +1899,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 55.88) (xy 154.94 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8dd7fb7-da9f-4981-9fbd-6dbb87cb4683")
-	)
-	(wire
-		(pts
-			(xy 154.94 55.88) (xy 154.94 53.34)
+			(xy 172.72 53.34) (xy 172.72 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1902,7 +1908,7 @@
 		(uuid "fa2cf6a7-c3b7-4d96-a043-4aa3edea0360")
 	)
 	(label "PACK+_RAW"
-		(at 170.18 53.34 270)
+		(at 187.96 53.34 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1932,7 +1938,7 @@
 		(uuid "1c291fb8-7724-476c-b4d1-c50e0851a5bf")
 	)
 	(label "BAT2"
-		(at 147.32 53.34 270)
+		(at 165.1 53.34 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1941,18 +1947,8 @@
 		)
 		(uuid "25f41a60-5f47-42a7-8fc3-824ad332427e")
 	)
-	(label "PACK+_RAW"
-		(at 100.33 31.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "294fc7ec-7d76-4fb2-8434-54d2934701b4")
-	)
 	(label "+BATT"
-		(at 146.05 26.67 180)
+		(at 163.83 26.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1972,7 +1968,7 @@
 		(uuid "343e0cd4-cdf9-4463-b3d7-f898f87f783f")
 	)
 	(label "BQ2_TS2"
-		(at 162.56 53.34 270)
+		(at 180.34 53.34 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1992,7 +1988,7 @@
 		(uuid "5b5c588e-aaab-41ab-a1ac-de6c0a7b81ac")
 	)
 	(label "BQ_TS"
-		(at 152.4 53.34 270)
+		(at 170.18 53.34 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2002,7 +1998,7 @@
 		(uuid "7d21659a-54ab-4466-a3c0-58391308b04c")
 	)
 	(label "+BATT"
-		(at 95.25 46.99 180)
+		(at 104.14 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2022,7 +2018,7 @@
 		(uuid "90372c71-24b4-4874-bf21-f85bbdeea3a9")
 	)
 	(label "BQ2_TS3"
-		(at 160.02 53.34 270)
+		(at 177.8 53.34 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2031,8 +2027,18 @@
 		)
 		(uuid "aaa4e60c-42f9-4461-8a60-41243910dc55")
 	)
+	(label "PACK+_RAW"
+		(at 104.14 26.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "afac5704-23e0-4881-a3c6-559c335e47e3")
+	)
 	(label "BQ2_TS1"
-		(at 165.1 53.34 270)
+		(at 182.88 53.34 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2042,7 +2048,7 @@
 		(uuid "b0922b58-9e10-496f-b54e-87d46fd1e643")
 	)
 	(label "BAT3{slash}PACK+"
-		(at 149.86 53.34 270)
+		(at 167.64 53.34 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2072,7 +2078,7 @@
 		(uuid "cc4d689e-d539-4e28-97f8-03897e56db44")
 	)
 	(label "+BATT"
-		(at 118.11 31.75 0)
+		(at 130.81 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2082,7 +2088,7 @@
 		(uuid "f0d068cf-fff8-46cc-ab49-04df41be6d7f")
 	)
 	(label "BAT1"
-		(at 144.78 53.34 270)
+		(at 162.56 53.34 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2093,7 +2099,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 63.5 0)
+		(at 185.42 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2102,7 +2108,7 @@
 		(fields_autoplaced yes)
 		(uuid "0021c5b8-8928-4e9c-9902-530be65b49dc")
 		(property "Reference" "#PWR08"
-			(at 167.64 69.85 0)
+			(at 185.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,7 +2117,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 68.58 0)
+			(at 185.42 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2119,7 +2125,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 63.5 0)
+			(at 185.42 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,7 +2134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 63.5 0)
+			(at 185.42 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,7 +2143,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 63.5 0)
+			(at 185.42 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2159,7 +2165,7 @@
 	)
 	(symbol
 		(lib_id "CDSOT23-T15C-Q:CDSOT23-T15C-Q")
-		(at 95.25 46.99 0)
+		(at 107.95 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2168,7 +2174,7 @@
 		(fields_autoplaced yes)
 		(uuid "07dfcaad-6ee6-4d25-a548-461fa14854bf")
 		(property "Reference" "D1"
-			(at 105.41 39.37 0)
+			(at 118.11 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2176,7 +2182,7 @@
 			)
 		)
 		(property "Value" "CDSOT23-T15C-Q"
-			(at 105.41 41.91 0)
+			(at 118.11 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2184,7 +2190,7 @@
 			)
 		)
 		(property "Footprint" "CDSOT23-T15C-Q:SOT95P230X117-3N"
-			(at 111.76 141.91 0)
+			(at 124.46 141.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2194,7 +2200,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/CDSOT23-TxxC-Q.pdf"
-			(at 111.76 241.91 0)
+			(at 124.46 241.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2204,7 +2210,7 @@
 			)
 		)
 		(property "Description" "ESD Suppressors / TVS Diodes TVS Diode 15V 500W BIDIR SOT23"
-			(at 95.25 46.99 0)
+			(at 107.95 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2213,7 +2219,7 @@
 			)
 		)
 		(property "Height" "1.17"
-			(at 111.76 441.91 0)
+			(at 124.46 441.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2223,7 +2229,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-CDSOT23-T15C-Q"
-			(at 111.76 541.91 0)
+			(at 124.46 541.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2233,7 +2239,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/CDSOT23-T15C-Q?qs=gZXFycFWdAPB6hWJxc%252Bycg%3D%3D"
-			(at 111.76 641.91 0)
+			(at 124.46 641.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2243,7 +2249,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 111.76 741.91 0)
+			(at 124.46 741.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2253,7 +2259,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CDSOT23-T15C-Q"
-			(at 111.76 841.91 0)
+			(at 124.46 841.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2476,16 +2482,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 63.5 0)
+		(at 175.26 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "312bbd6f-cb54-4782-b3a9-483ec0215c3a")
 		(property "Reference" "#PWR07"
-			(at 158.75 69.85 0)
+			(at 175.26 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2494,7 +2499,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 68.58 0)
+			(at 177.546 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2502,7 +2507,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 63.5 0)
+			(at 175.26 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,7 +2516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 63.5 0)
+			(at 175.26 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2520,7 +2525,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 63.5 0)
+			(at 175.26 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2542,7 +2547,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 52.07 0)
+		(at 134.62 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2551,7 +2556,7 @@
 		(fields_autoplaced yes)
 		(uuid "414ecc09-444b-46dc-ab86-439dfa783013")
 		(property "Reference" "#PWR06"
-			(at 121.92 58.42 0)
+			(at 134.62 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2560,7 +2565,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 57.15 0)
+			(at 134.62 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2568,7 +2573,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 52.07 0)
+			(at 134.62 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2577,7 +2582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 52.07 0)
+			(at 134.62 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,7 +2591,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 52.07 0)
+			(at 134.62 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,8 +2612,128 @@
 		)
 	)
 	(symbol
+		(lib_id "MF-RHS800-0:MF-RHS800-0")
+		(at 107.95 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e3f4eaa-fd97-4978-819c-7f253edb61ea")
+		(property "Reference" "F1"
+			(at 116.84 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MF-RHS800-0"
+			(at 116.84 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MF-RHS800-0:MFRHS8000"
+			(at 121.92 122.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/MF-RHS.pdf"
+			(at 121.92 222.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PTC 8.0A 16V RADIAL LEADED HI-TEMP"
+			(at 107.95 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "24.7"
+			(at 121.92 422.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-MF-RHS800-0"
+			(at 121.92 522.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/MF-RHS800-0?qs=mELouGlnn3db4Obe02aVdw%3D%3D"
+			(at 121.92 622.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 121.92 722.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MF-RHS800-0"
+			(at 121.92 822.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01e7b6b6-8dcf-4519-a135-8d9094a63276")
+		)
+		(pin "2"
+			(uuid "24df5ecb-7faa-40cd-b9c9-892ea47c79cc")
+		)
+		(instances
+			(project ""
+				(path "/61c97717-af7f-401d-a26a-01242b2529ed"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "XT30PW-M:XT30PW-M")
-		(at 146.05 26.67 0)
+		(at 163.83 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2617,7 +2742,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f75fd84-87db-4ddf-9481-680486ea5581")
 		(property "Reference" "J4"
-			(at 156.21 19.05 0)
+			(at 173.99 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2625,7 +2750,7 @@
 			)
 		)
 		(property "Value" "XT30PW-M"
-			(at 156.21 21.59 0)
+			(at 173.99 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2633,7 +2758,7 @@
 			)
 		)
 		(property "Footprint" "XT30PW-M:XT30PWM"
-			(at 162.56 121.59 0)
+			(at 180.34 121.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2643,7 +2768,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/sl/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf"
-			(at 162.56 221.59 0)
+			(at 180.34 221.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,7 +2778,7 @@
 			)
 		)
 		(property "Description" "30A Low Temperature Rise Fire Retardant Plug"
-			(at 146.05 26.67 0)
+			(at 163.83 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2662,7 +2787,7 @@
 			)
 		)
 		(property "Height" "5"
-			(at 162.56 421.59 0)
+			(at 180.34 421.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2672,7 +2797,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amass"
-			(at 162.56 521.59 0)
+			(at 180.34 521.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2682,7 +2807,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "XT30PW-M"
-			(at 162.56 621.59 0)
+			(at 180.34 621.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,7 +2817,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 162.56 721.59 0)
+			(at 180.34 721.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2702,7 +2827,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 162.56 821.59 0)
+			(at 180.34 821.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,7 +2837,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 162.56 921.59 0)
+			(at 180.34 921.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2722,7 +2847,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 162.56 1021.59 0)
+			(at 180.34 1021.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,7 +2945,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 31.75 0)
+		(at 160.02 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2829,7 +2954,7 @@
 		(fields_autoplaced yes)
 		(uuid "94d2feb3-f54c-4e37-a3a4-2a68955d0cd3")
 		(property "Reference" "#PWR04"
-			(at 142.24 38.1 0)
+			(at 160.02 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2838,7 +2963,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 36.83 0)
+			(at 160.02 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2846,7 +2971,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 31.75 0)
+			(at 160.02 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2855,7 +2980,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 31.75 0)
+			(at 160.02 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2864,7 +2989,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 31.75 0)
+			(at 160.02 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2886,16 +3011,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 63.5 0)
+		(at 172.72 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9dcf0893-b09e-44fb-972a-5e7503734f3f")
 		(property "Reference" "#PWR03"
-			(at 152.4 69.85 0)
+			(at 172.72 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2904,7 +3028,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 68.58 0)
+			(at 170.688 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2912,7 +3036,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 63.5 0)
+			(at 172.72 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2921,7 +3045,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 63.5 0)
+			(at 172.72 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2930,7 +3054,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 63.5 0)
+			(at 172.72 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3152,16 +3276,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x12")
-		(at 154.94 48.26 90)
+		(at 172.72 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "be4fe240-bc7d-48a2-99c9-a92106f0450f")
 		(property "Reference" "J2"
-			(at 156.21 41.91 90)
+			(at 173.99 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3169,7 +3292,7 @@
 			)
 		)
 		(property "Value" "Conn_01x12"
-			(at 156.21 44.45 90)
+			(at 173.99 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3177,7 +3300,7 @@
 			)
 		)
 		(property "Footprint" "Bifrost_Wire_Pads:Bifrost_Wire_Pads"
-			(at 154.94 48.26 0)
+			(at 172.72 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3186,7 +3309,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 48.26 0)
+			(at 172.72 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3195,7 +3318,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 154.94 48.26 0)
+			(at 172.72 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3250,7 +3373,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 100.33 31.75 180)
+		(at 106.68 26.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3259,7 +3382,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc9f13e5-a969-4ff2-8b4b-e1796fec9573")
 		(property "Reference" "#FLG01"
-			(at 100.33 33.655 0)
+			(at 106.68 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3268,7 +3391,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 100.33 36.83 0)
+			(at 106.68 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3276,7 +3399,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 31.75 0)
+			(at 106.68 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3285,7 +3408,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 31.75 0)
+			(at 106.68 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3294,7 +3417,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 100.33 31.75 0)
+			(at 106.68 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3316,7 +3439,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 63.5 0)
+		(at 160.02 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3325,7 +3448,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea023368-ae19-4745-a8e8-8022c484f72f")
 		(property "Reference" "#PWR01"
-			(at 142.24 69.85 0)
+			(at 160.02 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3334,7 +3457,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 68.58 0)
+			(at 160.02 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3342,7 +3465,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 63.5 0)
+			(at 160.02 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3351,7 +3474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 63.5 0)
+			(at 160.02 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3360,7 +3483,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 63.5 0)
+			(at 160.02 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3375,126 +3498,6 @@
 			(project "BIFROST-3S"
 				(path "/61c97717-af7f-401d-a26a-01242b2529ed"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MF-RHS800-0:MF-RHS800-0")
-		(at 100.33 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fea8edbe-f692-4e7d-a607-d80e532418b9")
-		(property "Reference" "F1"
-			(at 109.22 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MF-RHS800-0"
-			(at 109.22 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MF-RHS800-0:MFRHS8000"
-			(at 114.3 127.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/MF-RHS.pdf"
-			(at 114.3 227.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "PTC 8.0A 16V RADIAL LEADED HI-TEMP"
-			(at 100.33 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "24.7"
-			(at 114.3 427.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "652-MF-RHS800-0"
-			(at 114.3 527.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/MF-RHS800-0?qs=mELouGlnn3db4Obe02aVdw%3D%3D"
-			(at 114.3 627.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Bourns"
-			(at 114.3 727.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MF-RHS800-0"
-			(at 114.3 827.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "48eabf31-d68b-4eff-a1d7-2200a81208db")
-		)
-		(pin "1"
-			(uuid "ced5dc16-416d-46f5-bd89-1623bd1e5139")
-		)
-		(instances
-			(project ""
-				(path "/61c97717-af7f-401d-a26a-01242b2529ed"
-					(reference "F1")
 					(unit 1)
 				)
 			)

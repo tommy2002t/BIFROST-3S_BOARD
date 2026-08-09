@@ -1,0 +1,138 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "3588-15"
+   (description "Fuse Holder 20 A 500V 1 Circuit Blade Surface Mount")
+   (family "ANA")
+   (package "358815")
+   (attribute "Datasheet Link" "http://www.keystoneelectronics.net/ENG._DEPT/WEB_ORACLE/PDF/PDF%20CAT%20NO%20DRAWINGS/3000-3999/3588-15.PDF")
+   (attribute "Geometry.Height" "8.37mm")
+   (attribute "Mouser Part Number" "534-3588-15")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3588-15?qs=u16ybLDytRaSVK7r0YphMA%3D%3D")
+   (attribute "Manufacturer_Name" "Keystone Electronics")
+   (attribute "Manufacturer_Part_Number" "3588-15")
+   (gate
+    (symbol "3588-15")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+   )
+  )
+  (symbol "3588-15"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "358815"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -8 -3.365)
+      (pt 8 -3.365)
+      (pt 8 3.365)
+      (pt -8 3.365)
+      (pt -8 -3.365))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -9 5.57)
+      (pt 9 5.57)
+      (pt 9 -5.57)
+      (pt -9 -5.57)
+      (pt -9 5.57))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -6 3.365)
+      (pt -8 3.365)
+      (pt -8 -3.365)
+      (pt -6 -3.365))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.8 -3.365)
+      (pt 3.8 -3.365))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 6 -3.365)
+      (pt 8 -3.365)
+      (pt 8 3.365)
+      (pt 6 3.365))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.8 3.365)
+      (pt 3.8 3.365))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.96 -5)
+      (arc (pt -4.960 -5.000) (pt -5.010 -5.100) (pt -4.910 -5.000) (start 180.0) (sweep 90.0))
+      (pt -4.96 -5.1)
+      (arc (pt -4.960 -5.100) (pt -5.010 -5.100) (pt -4.910 -5.000) (start 180.0) (sweep -90.0))
+      (pt -4.96 -5))))
+   (leg 1 (pt -4.960 -3.160) (padstack 0))
+   (leg 2 (pt 4.960 -3.160) (padstack 0))
+   (leg 3 (pt 4.960 3.160) (padstack 0))
+   (leg 4 (pt -4.960 3.160) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.570 2.820 0 0 90.000))
+   )
+   (model "3588-15.stp"
+    (euler -90 180 0)
+    (offset 0.10000000149011612 0.3700000047683716 3.7200000286102295)
+   )
+  )
+ )
+)
