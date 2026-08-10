@@ -1,0 +1,16 @@
+.SF-1206HHA800R-2 :1 ;1206 high-current met-foil. 8A Auto
+SF1206HHA800R2
+*STM F
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN SF-1206HHA800R-2
+~!Mouser Part Number (652-SF-1206HHA800R-2)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bourns/SF-1206HHA800R-2?qs=Imq1NPwxi77tr2%2FYGnM5Ig%3D%3D)
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (SF-1206HHA800R-2)
+~!Link Datasheet (https://www.bourns.com/docs/Product-Datasheets/SF-1206HHA-R.pdf)
+~!Height (1.2mm)
+~!3D_Model (SF-1206HHA800R-2)
+SF-1206HHA800R-2
+1.1!U 2.1!U 

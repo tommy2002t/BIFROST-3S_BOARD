@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SF_1206HHA800R_2'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "SF-1206HHA800R-2" (!) = "", "SF1206HHA800R2", "Other", "652-SF-1206HHA800R-2", "https://www.mouser.co.uk/ProductDetail/Bourns/SF-1206HHA800R-2?qs=Imq1NPwxi77tr2%2FYGnM5Ig%3D%3D", "1206 high-current met-foil. 8A Auto", "https://www.bourns.com/docs/Product-Datasheets/SF-1206HHA-R.pdf", "1.2 mm"
+END_PART
+
+END.

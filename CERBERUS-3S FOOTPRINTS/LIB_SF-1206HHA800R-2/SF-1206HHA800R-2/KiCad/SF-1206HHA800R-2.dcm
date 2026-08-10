@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SF-1206HHA800R-2
+D 1206 high-current met-foil. 8A Auto
+K
+F https://www.bourns.com/docs/Product-Datasheets/SF-1206HHA-R.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=SF-1206HHA800R-2
+PartCategory=Fuse
+PackageCategory=Other
+PinCount=2
+Version=2.1
+Released=2023-08-24 04:51:24
+Downloaded=2026-08-10 16:46:58
+3D=Y

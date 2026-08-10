@@ -1019,7 +1019,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MF-RHS800-0:MF-RHS800-0"
+		(symbol "SF-1206HHA800R-2:SF-1206HHA800R-2"
 			(pin_names
 				(hide yes)
 			)
@@ -1035,7 +1035,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "MF-RHS800-0"
+			(property "Value" "SF-1206HHA800R-2"
 				(at 13.97 3.81 0)
 				(effects
 					(font
@@ -1044,7 +1044,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "MFRHS8000"
+			(property "Footprint" "SF1206HHA800R2"
 				(at 13.97 -96.19 0)
 				(effects
 					(font
@@ -1054,7 +1054,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/MF-RHS.pdf"
+			(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SF-1206HHA-R.pdf"
 				(at 13.97 -196.19 0)
 				(effects
 					(font
@@ -1064,7 +1064,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "PTC 8.0A 16V RADIAL LEADED HI-TEMP"
+			(property "Description" "1206 high-current met-foil. 8A Auto"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1073,7 +1073,7 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "24.7"
+			(property "Height" "1.2"
 				(at 13.97 -396.19 0)
 				(effects
 					(font
@@ -1083,7 +1083,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "652-MF-RHS800-0"
+			(property "Mouser Part Number" "652-SF-1206HHA800R-2"
 				(at 13.97 -496.19 0)
 				(effects
 					(font
@@ -1093,7 +1093,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/MF-RHS800-0?qs=mELouGlnn3db4Obe02aVdw%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SF-1206HHA800R-2?qs=Imq1NPwxi77tr2%2FYGnM5Ig%3D%3D"
 				(at 13.97 -596.19 0)
 				(effects
 					(font
@@ -1113,7 +1113,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "MF-RHS800-0"
+			(property "Manufacturer_Part_Number" "SF-1206HHA800R-2"
 				(at 13.97 -796.19 0)
 				(effects
 					(font
@@ -1123,7 +1123,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MF-RHS800-0_1_1"
+			(symbol "SF-1206HHA800R-2_1_1"
 				(rectangle
 					(start 5.08 1.27)
 					(end 12.7 -1.27)
@@ -1137,31 +1137,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.588 -2.032) (xy 7.112 -2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.668 2.032) (xy 7.112 -2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.668 2.032) (xy 12.192 2.032)
+						(xy 5.08 0) (xy 12.7 0)
 					)
 					(stroke
 						(width 0.254)
@@ -2612,126 +2588,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MF-RHS800-0:MF-RHS800-0")
-		(at 107.95 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e3f4eaa-fd97-4978-819c-7f253edb61ea")
-		(property "Reference" "F1"
-			(at 116.84 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MF-RHS800-0"
-			(at 116.84 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MF-RHS800-0:MFRHS8000"
-			(at 121.92 122.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/MF-RHS.pdf"
-			(at 121.92 222.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "PTC 8.0A 16V RADIAL LEADED HI-TEMP"
-			(at 107.95 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "24.7"
-			(at 121.92 422.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "652-MF-RHS800-0"
-			(at 121.92 522.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/MF-RHS800-0?qs=mELouGlnn3db4Obe02aVdw%3D%3D"
-			(at 121.92 622.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Bourns"
-			(at 121.92 722.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MF-RHS800-0"
-			(at 121.92 822.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01e7b6b6-8dcf-4519-a135-8d9094a63276")
-		)
-		(pin "2"
-			(uuid "24df5ecb-7faa-40cd-b9c9-892ea47c79cc")
-		)
-		(instances
-			(project ""
-				(path "/61c97717-af7f-401d-a26a-01242b2529ed"
-					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "XT30PW-M:XT30PW-M")
 		(at 163.83 26.67 0)
 		(unit 1)
@@ -2872,6 +2728,126 @@
 			(project "BIFROST-3S"
 				(path "/61c97717-af7f-401d-a26a-01242b2529ed"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SF-1206HHA800R-2:SF-1206HHA800R-2")
+		(at 107.95 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b43e485-5c6f-40f9-86c8-b5b8cb11f2e4")
+		(property "Reference" "F1"
+			(at 116.84 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SF-1206HHA800R-2"
+			(at 116.84 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SF-1206HHA800R-2:SF1206HHA800R2"
+			(at 121.92 122.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SF-1206HHA-R.pdf"
+			(at 121.92 222.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "1206 high-current met-foil. 8A Auto"
+			(at 107.95 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 121.92 422.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-SF-1206HHA800R-2"
+			(at 121.92 522.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SF-1206HHA800R-2?qs=Imq1NPwxi77tr2%2FYGnM5Ig%3D%3D"
+			(at 121.92 622.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 121.92 722.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SF-1206HHA800R-2"
+			(at 121.92 822.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a17b55b1-3470-4808-ae7d-7574657f0569")
+		)
+		(pin "2"
+			(uuid "b7b0824f-3601-4575-a873-67701a2b7aaf")
+		)
+		(instances
+			(project ""
+				(path "/61c97717-af7f-401d-a26a-01242b2529ed"
+					(reference "F1")
 					(unit 1)
 				)
 			)

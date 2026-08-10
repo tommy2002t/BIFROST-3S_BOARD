@@ -1,0 +1,112 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SF-1206HHA800R-2"
+   (description "1206 high-current met-foil. 8A Auto")
+   (family "FUS")
+   (package "SF1206HHA800R2")
+   (attribute "Datasheet Link" "https://www.bourns.com/docs/Product-Datasheets/SF-1206HHA-R.pdf")
+   (attribute "Geometry.Height" "1.2mm")
+   (attribute "Mouser Part Number" "652-SF-1206HHA800R-2")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SF-1206HHA800R-2?qs=Imq1NPwxi77tr2%2FYGnM5Ig%3D%3D")
+   (attribute "Manufacturer_Name" "Bourns")
+   (attribute "Manufacturer_Part_Number" "SF-1206HHA800R-2")
+   (gate
+    (symbol "SF-1206HHA800R-2")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "SF-1206HHA800R-2"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 50) (pt 500 50) (pt 500 -50) (pt 200 -50) (pt 200 50) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 500 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SF1206HHA800R2"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.6 -0.825)
+      (pt 1.6 -0.825)
+      (pt 1.6 0.825)
+      (pt -1.6 0.825)
+      (pt -1.6 -0.825))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.35 1.825)
+      (pt 3.35 1.825)
+      (pt 3.35 -1.825)
+      (pt -3.35 -1.825)
+      (pt -3.35 1.825))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.8 0.825)
+      (pt 0.8 0.825))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.8 -0.825)
+      (pt 0.8 -0.825))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3 0)
+      (arc (pt -3.000 0.000) (pt -3.000 -0.050) (pt -2.900 0.050) (start 180.0) (sweep -180.0))
+      (pt -2.9 0)
+      (arc (pt -2.900 0.000) (pt -3.000 -0.050) (pt -2.900 0.050) (start 180.0) (sweep .0))
+      (pt -3 0))))
+   (leg 1 (pt -1.725 0.000) (padstack 0))
+   (leg 2 (pt 1.725 0.000) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.250 1.650 0 0 90.000))
+   )
+   (model "SF-1206HHA800R-2.stp"
+    (euler 90 0 0)
+    (offset 0.05999999865889549 0.8199999928474426 0.05000000074505806)
+   )
+  )
+ )
+)
